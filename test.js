@@ -9,7 +9,7 @@ saludar = function(){
     cmpNombre = document.getElementById("txtNombre");
     nombre = cmpNombre.value;
     cmpApellido = document.getElementById("txtApellido");
-    apellido = cmpNombre.value;
+    apellido = cmpApellido.value;
 
     generarSaludo(nombre,apellido);
     return saludo;
