@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .principal {
+    display: block;
+    flex-direction: column;
+    height: 30%;
+   
+  }
+
+body{
+    background-image: url("cielo.jpg");
+    background-size: cover;
+    background-color: aliceblue;
+}
+
+.botones{
+    display: flex;
+    flex:5;
+
+    justify-content: baseline;
+    align-items: normal;
+    margin-left: 40px;
+}
+
+.datos{
+    color: azure;
+    margin-left: 40px;
+}

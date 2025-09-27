@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="test.css" rel="stylesheet"/>
         <script src="serviciosTest.js"></script>
         <script src="test.js"></script>
     </head>
     <body>
-        <h3>Nombre</h3>
+        <div class="principal">
+        <div class="datos">
+            <h3>Nombre</h3>
         <input type="text" id="txtNombre"/>
         <h3>Apellido</h3>
         <input type="text" id="txtApellido"/>
         <h4 id="lblResultado"></h4>
+        </div>
+        <div class="botones">
         <input type="button" value="SALUDAR" onclick="saludar();"/>
+        </div>
+        </div>
     </body>
 </html>
